@@ -4,13 +4,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Navbarr from './compnents/Navbarr';
+import Photo from './compnents/profile/Photo';
+import FullName from './compnents/profile/FullName';
 
 
 function App() {
   return (
     <div >
    <Navbarr className="navbar" />
-   
+   <Photo/>
+<FullName/>
  <Form className="App" >
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Email address</Form.Label>
